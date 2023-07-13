@@ -1,0 +1,54 @@
+.table-responsive {
+    margin: 10px 0;
+}
+.table-wrapper {
+    min-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+    min-width: 100%;
+    font-family: 'Roboto';
+}
+.table-title h2 {
+    margin: 8px 0 0;
+    font-size: 22px;
+    font-family: 'Roboto';
+}
+
+table.table tr th, table.table tr td {
+    border-color: #ffffff;
+    text-align: center;
+    vertical-align:middle;
+    font-size: 1rem;
+}
+
+table.table-striped thead tr:nth-of-type(odd) {
+    background-color: #357a8f;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #cae7f5;
+}
+table.table-striped.table-hover tbody tr:hover {
+    background: #9ec8e6;
+}
+
+table.table td:last-child {
+    width: 130px;
+}
+table.table td a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.hint-text {
+    float: left;
+    margin-top: 6px;
+    font-size: 95%;
+}  
